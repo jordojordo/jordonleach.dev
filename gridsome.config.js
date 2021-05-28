@@ -6,8 +6,7 @@
 const tailwind = require("tailwindcss");
 
 module.exports = {
-  siteUrl: 'https://jordojordo.github.io',
-  pathPrefix: '/jordonleach.dev',
+  siteUrl: 'https://jordonleach.dev',
   siteName: "jordo's territory",
   plugins: [],
   css: {
