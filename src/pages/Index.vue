@@ -1,27 +1,21 @@
 <template>
   <Layout>
-    <section id="home" class="container">
-      <g-image alt="Example image" src="~/favicon.png" width="135" />
-
-      <h1 class="dark:text-white">my world!</h1>
-
-      <p class="dark:text-white">
-        i do the things, and ur here now.
-      </p>
+    <section id="home" class="container my-20">
+      <Banner />
     </section>
   </Layout>
 </template>
 
 <script>
+import Banner from "@/partials/Banner";
 export default {
+  name: "home",
   metaInfo: {
-    title: "Oh yeah, yeah...",
+    title: "oh... it's you.",
+    description: "caught you reading my descriptions.",
+  },
+  components: {
+    Banner,
   },
 };
 </script>
-
-<style>
-.home-links a {
-  margin-right: 1rem;
-}
-</style>
