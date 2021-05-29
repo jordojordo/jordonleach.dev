@@ -1,6 +1,6 @@
 <template>
   <div>
-    <g-image alt="Example image" src="~/favicon.png" class="w-24 h-auto" />
+    <g-image alt="Example image" src="~/favicon.png" class="w-24 h-auto my-3" />
 
     <h1 class="dark:text-white">welcome to my world.</h1>
 

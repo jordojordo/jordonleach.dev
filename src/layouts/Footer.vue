@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <footer class="absolute bottom-0 py-3">
+    <footer class="py-3">
       <a
         v-for="link in links"
         :key="link.label"
@@ -21,7 +21,7 @@ export default {
     return {
       links: [
         {
-          target: "/files/jordon_leach_resume.pdf",
+          target: "/resume",
           label: "resume",
         },
         {

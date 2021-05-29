@@ -6,6 +6,9 @@ module.exports = {
       center: true,
       padding: "1rem",
     },
+    listStyleType: {
+      square: 'square'
+    }
   },
   variants: {
     extend: {},
