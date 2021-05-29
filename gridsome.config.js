@@ -7,7 +7,7 @@ const tailwind = require("tailwindcss");
 
 module.exports = {
   siteUrl: 'https://jordonleach.dev',
-  siteName: "jordo's territory",
+  siteName: "Jordo's territory",
   plugins: [],
   css: {
     loaderOptions: {

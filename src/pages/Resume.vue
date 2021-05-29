@@ -11,8 +11,8 @@ import Body from "@/partials/resume/Body"
 export default {
   name: "Resume",
   metaInfo: {
-    title: "resume",
-    description: "marvel in the glory",
+    title: "Resume",
+    description: "Marvel in the glory.",
   },
   data() {
     return {

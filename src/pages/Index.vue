@@ -12,8 +12,8 @@ import Banner from "@/partials/home/Banner";
 export default {
   name: "home",
   metaInfo: {
-    title: "oh... it's you.",
-    description: "caught you reading my descriptions.",
+    title: "Oh... it's you.",
+    description: "Caught you reading my description.",
   },
   components: {
     Banner,

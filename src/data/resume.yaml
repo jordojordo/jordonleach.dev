@@ -9,16 +9,6 @@ objective:
     Vue.js, Express.js, and Linux based foundations.
   heading: Summary
   visible: true
-profile:
-  address:
-    city: "Glen Rock, PA"
-  email: jordonleach@gmail.com
-  firstName: Jordon
-  heading: Profile
-  lastName: Leach
-  subtitle: Full Stack Web Developer
-  website: jordonleach.dev
-  phone: "7176836817"
 projects:
   heading: Projects
   visible: true
