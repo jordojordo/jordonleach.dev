@@ -5,7 +5,8 @@
         v-for="link in links"
         :key="link.label"
         :href="link.target"
-        download
+        :target="link.label !== 'resume' ? '_blank' : null"
+        rel="noopener"
         class="dark:text-blue-200 mr-3"
       >
         {{ link.label }}
@@ -21,7 +22,7 @@ export default {
     return {
       links: [
         {
-          target: "/resume",
+          target: "/resume/",
           label: "resume",
         },
         {

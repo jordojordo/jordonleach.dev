@@ -3,6 +3,15 @@
     <Summary :objective="resumeData.objective" />
     <Experience :work="resumeData.work" />
     <Projects :projects="resumeData.projects" />
+    <div class="my-6 hidden md:flex">
+      <a
+        href="@/files/Jordon_Leach_Resume.pdf"
+        download
+        class="dark:text-blue-200"
+      >
+        download pdf
+      </a>
+    </div>
   </div>
 </template>
 

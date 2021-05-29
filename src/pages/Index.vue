@@ -13,7 +13,12 @@ export default {
   name: "home",
   metaInfo: {
     title: "Oh... it's you.",
-    description: "Caught you reading my description.",
+    meta: [
+      {
+        name: "description",
+        content: "Caught you reading my description."
+      }
+    ]
   },
   components: {
     Banner,

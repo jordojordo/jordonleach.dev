@@ -5,13 +5,6 @@
         {{ $static.metadata.siteName }}
       </g-link>
     </strong>
-    <a class="w-6" href="https://github.com/jordojordo/jordonleach.dev">
-      <img
-        svg-inline
-        src="@/assets/icons/code-merge-duotone.svg"
-        class="w-full h-full fill-current text-blue-200"
-      />
-    </a>
   </header>
 </template>
 

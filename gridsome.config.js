@@ -6,23 +6,27 @@
 const tailwind = require("tailwindcss");
 
 module.exports = {
-  siteUrl: 'https://jordonleach.dev',
+  siteUrl: "https://jordonleach.dev",
   siteName: "Jordo's territory",
-  plugins: [],
+  plugins: [
+    {
+      use: "@gridsome/plugin-sitemap",
+    },
+  ],
   css: {
     loaderOptions: {
       postcss: {
-        plugins: [
-          tailwind
-        ],
+        plugins: [tailwind],
       },
     },
   },
-  chainWebpack: config => {
+  chainWebpack: (config) => {
     config.module
-    .rule("vue")
-    .use("vue-svg-inline-loader")
-    .loader("vue-svg-inline-loader")
-    .options({ /* ... */ });
+      .rule("vue")
+      .use("vue-svg-inline-loader")
+      .loader("vue-svg-inline-loader")
+      .options({
+        /* ... */
+      });
   },
 };

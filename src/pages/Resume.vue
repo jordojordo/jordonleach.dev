@@ -12,7 +12,12 @@ export default {
   name: "Resume",
   metaInfo: {
     title: "Resume",
-    description: "Marvel in the glory.",
+    meta: [
+      {
+        name: "description",
+        content: "Marvel in the glory."
+      }
+    ]
   },
   data() {
     return {
