@@ -37,12 +37,9 @@ module.exports = {
       center: true,
       padding: "1rem",
     },
-<<<<<<< HEAD
     boxShadow: {
       DEFAULT: "13px 11px var(--color-ui-foreground)",
     },
-=======
->>>>>>> ca1f6fae5ace97f4c25778c9400bf8e3920822d5
   },
   variants: {
     extend: {},
