@@ -9,7 +9,7 @@ module.exports = {
           main: "#fffffe",
           secondary: "#ffc6c7",
           tertiary: "#c3f0ca",
-          highlight: "#ff8ba7"
+          highlight: "#594a4e"
         },
         dark: {
           background: "#16161a",
@@ -17,7 +17,7 @@ module.exports = {
           main: "#fffffe",
           secondary: "#94a1b2",
           tertiary: "#2cb67d",
-          highlight: "#7f5af0"
+          highlight: "#8965F6"
         },
         ui: {
           background: "var(--color-ui-background)",
