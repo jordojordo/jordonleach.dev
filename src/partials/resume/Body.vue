@@ -7,7 +7,7 @@
       <a
         href="@/files/Jordon_Leach_Resume.pdf"
         download
-        class="text-ui-link"
+        class="text-ui-link font-black"
       >
         download pdf
       </a>

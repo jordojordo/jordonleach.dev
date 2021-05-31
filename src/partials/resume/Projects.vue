@@ -9,7 +9,7 @@
           <h3 class="text-ui-typo font-bold">
             {{ project.title }}
           </h3>
-          <a :href="project.link" class="text-ui-link text-sm">
+          <a :href="project.link" class="text-ui-link text-sm font-black">
             {{ project.link }}
           </a>
         </div>
