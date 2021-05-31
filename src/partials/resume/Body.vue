@@ -5,7 +5,7 @@
     <Projects :projects="resumeData.projects" />
     <div class="my-6 hidden md:flex">
       <a
-        href="@/files/Jordon_Leach_Resume.pdf"
+        href="/Jordon_Leach_Resume.pdf"
         download
         class="text-ui-link font-black"
       >
