@@ -3,3 +3,17 @@
 @tailwind components;
 
 @tailwind utilities;
+
+:root {
+  --color-ui-background: theme("colors.light.background");
+  --color-ui-foreground: theme("colors.light.foreground");
+  --color-ui-typo: theme("colors.light.foreground");
+  --color-ui-link: theme("colors.light.highlight");
+}
+
+:root.dark {
+  --color-ui-background: theme("colors.dark.background");
+  --color-ui-foreground: theme("colors.dark.foreground");
+  --color-ui-typo: theme("colors.dark.main");
+  --color-ui-link: theme("colors.dark.highlight");
+}

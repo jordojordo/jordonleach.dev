@@ -1,10 +1,11 @@
 <template>
   <header class="header container py-3 flex flex-row justify-between">
     <strong>
-      <g-link class="dark:text-white" to="/">
+      <g-link class="text-ui-typo" to="/">
         {{ $static.metadata.siteName }}
       </g-link>
     </strong>
+    <ToggleTheme />
   </header>
 </template>
 
@@ -17,7 +18,12 @@ query {
 </static-query>
 
 <script>
+import ToggleTheme from "@/components/ToggleTheme";
+
 export default {
   name: "Header",
+  components: {
+    ToggleTheme,
+  },
 };
 </script>

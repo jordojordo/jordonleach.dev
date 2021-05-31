@@ -7,7 +7,7 @@
         :href="link.target"
         :target="link.label !== 'resume' ? '_blank' : null"
         rel="noopener"
-        class="dark:text-blue-200 mr-3"
+        class="text-ui-typo mr-3"
       >
         {{ link.label }}
       </a>

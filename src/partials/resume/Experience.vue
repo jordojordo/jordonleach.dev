@@ -1,20 +1,20 @@
 <template>
   <section id="experience" class="my-3">
-    <h2 class="dark:text-blue-200 text-blue-500 font-bold mb-2">
+    <h2 class="text-ui-typo dark:text-dark-tertiary font-bold mb-2">
       {{ work.heading }}
     </h2>
     <div v-for="item in work.items" :key="item.id" class="mb-6">
       <div class="flex flex-col md:flex-row md:justify-between mb-2">
         <div>
-          <h3 class="dark:text-white font-bold">
+          <h3 class="text-ui-typo font-bold">
             {{ item.company }}
           </h3>
-          <p class="dark:text-white text-sm">
+          <p class="text-ui-typo text-sm">
             {{ item.position }}
           </p>
         </div>
 
-        <p class="dark:text-white text-sm">
+        <p class="text-ui-typo text-sm">
           {{
             item.endDate !== ""
               ? `${formatDate(item.startDate)} - ${formatDate(item.endDate)}`
@@ -26,7 +26,7 @@
         <li
           v-for="bullet in item.summary"
           :key="bullet.id"
-          class="dark:text-white mb-1"
+          class="text-ui-typo mb-1"
         >
           {{ bullet }}
         </li>

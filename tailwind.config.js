@@ -1,14 +1,45 @@
 module.exports = {
-  darkMode: "media", // or 'media' or 'class'
+  darkMode: "class",
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        light: {
+          background: "#faeee7",
+          foreground: "#33272a",
+          main: "#fffffe",
+          secondary: "#ffc6c7",
+          tertiary: "#c3f0ca",
+          highlight: "#ff8ba7"
+        },
+        dark: {
+          background: "#16161a",
+          foreground: "#fffffe",
+          main: "#fffffe",
+          secondary: "#94a1b2",
+          tertiary: "#2cb67d",
+          highlight: "#7f5af0"
+        },
+        ui: {
+          background: "var(--color-ui-background)",
+          foreground: "var(--color-ui-foreground)",
+          typo: "var(--color-ui-typo)",
+          link: "var(--color-ui-link)",
+        },
+      },
+    },
+    colors: {
+      light: "#f1f2f0",
+      lighter: "#f1f2f0",
+      dark: "#35342f",
+      blue: "#37bbe4",
+    },
     container: {
       center: true,
       padding: "1rem",
     },
-    listStyleType: {
-      square: 'square'
-    }
+    boxShadow: {
+      DEFAULT: "13px 11px var(--color-ui-foreground)",
+    },
   },
   variants: {
     extend: {},

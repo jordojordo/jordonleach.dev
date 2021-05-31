@@ -1,5 +1,5 @@
 <template>
-  <div class="min-h-screen flex flex-col justify-between dark:bg-gray-600">
+  <div class="min-h-screen flex flex-col justify-between bg-ui-background">
     <Header />
     <slot />
     <Footer />

@@ -1,24 +1,24 @@
 <template>
   <section id="projects" class="my-3">
-    <h4 class="dark:text-blue-200 text-blue-500 font-bold mb-2">
+    <h4 class="text-ui-typo dark:text-dark-tertiary font-bold mb-2">
       {{ projects.heading }}
     </h4>
     <div v-for="project in projects.items" :key="project.id">
       <div class="flex flex-col md:flex-row md:justify-between mb-2">
         <div>
-          <h3 class="dark:text-white font-bold">
+          <h3 class="text-ui-typo font-bold">
             {{ project.title }}
           </h3>
-          <a :href="project.link" class="dark:text-blue-200 text-sm">
+          <a :href="project.link" class="text-ui-link text-sm">
             {{ project.link }}
           </a>
         </div>
 
-        <p class="dark:text-white text-sm">
+        <p class="text-ui-typo text-sm">
           {{ formatDate(project.date) }}
         </p>
       </div>
-      <p class="dark:text-white">
+      <p class="text-ui-typo">
         {{ project.summary }}
       </p>
     </div>
