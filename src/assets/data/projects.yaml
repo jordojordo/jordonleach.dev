@@ -1,0 +1,65 @@
+heading: Projects
+visible: true
+items:
+  - title: Lawndon
+    link: "https://github.com/jordojordo/lawndon-lite"
+    date: "2023-11-16"
+    description:
+      summary:
+        - An inventive, remote-controlled electric lawn mower designed for challenging terrains. This project showcases innovation in hardware integration and automation, featuring 3D-printed components and sophisticated control mechanisms.
+      features:
+        - Custom-built with 3D-printed tank tracks, allowing it to conquer various terrains, particularly steep inclines.
+        - Implements a GitHub Actions workflow to automate the build and release process of the program. This ensures a robust and reliable software delivery pipeline, enabling efficient version control and release management.
+        - Utilizes a high-torque, low-power design philosophy to balance efficiency with the capability to climb hills.
+        - Designed reproducible tracks and gears, making it possible for others with access to a 3D printer to replicate the build.
+
+  - title: Daphine
+    link: "https://github.com/jordojordo/daphine"
+    date: "2023-9-18"
+    description:
+      summary:
+        - A versatile API named "Daphine" designed to stream music and videos, enhancing the multimedia capabilities of web platforms. The API is adaptable, with deployment options tailored to different operational requirements.
+      features:
+        - Engineered to efficiently handle streaming of music and video content, ensuring seamless delivery to end-users.
+        - Offers multiple deployment methodologies to suit various infrastructure needs, including Kubernetes clusters, Docker containers, and traditional Node.js server setups.
+        - Includes a Helm chart for streamlined and scalable deployments in Kubernetes environments, demonstrating advanced orchestration capabilities.
+        - Packaged as a Docker container to promote portability and ease of deployment across different systems.
+
+  - title: Yokanga
+    link: "https://yokanga.xyz"
+    date: "2022-07-22"
+    description:
+      summary:
+        - A basic HTML website that revives the spirit of GeoCities. It showcases music videos with a unique twist, featuring recycled VHS visuals. The site uses the Daphine API for streaming music and videos, and it's hosted on a personal server utilizing Kubernetes and Helm for optimal performance and scalability. It's a testament to the fusion of old and new, showcasing my passion for both retro aesthetics and contemporary web technologies.
+
+  - title: Hermes
+    link: "https://hermes.yokanga.xyz"
+    date: "2023-01-03"
+    description:
+      summary:
+        - A unique web application that combines Vue.js and Three.js to craft an immersive 3D world. This project stands out for its integration of front-end development techniques with 3D graphics, highlighting a distinctive approach to creating interactive web experiences.
+      features:
+        - Features a visually engaging and interactive 3D environment, enhancing user exploration and engagement.
+        - Incorporates unique 3D models created with Blender, adding a layer of creativity and personal touch to the visual experience.
+        - Built using Vue.js, the interface is intuitive and user-friendly, facilitating easy navigation through the 3D world.
+        - Utilizes Three.js for rendering complex 3D graphics, ensuring a smooth experience across different devices and platforms.
+        - Packaged into a consumable Docker container, hosted on GitHub's container registry, for easy deployment and scalability.
+
+  - title: Bashmu
+    link: "https://github.com/jordojordo/bashmu"
+    date: "2023-02-11"
+    description:
+      summary:
+        - Bashmu is a Vue.js application designed as a user interface for the Hydra Synth project. It emulates the look and feel of traditional audio production interfaces, offering customizable and interactive components. This project combines web technologies with multimedia art, creating a platform for dynamic visual expression.
+      features:
+        - The interface draws inspiration from classic audio production tools, providing an engaging and familiar user experience.
+        - Allows for the creation of multiple instances of video oscillators and effects, offering versatility in visual manipulation.
+        - Supports livecoding practices, enabling real-time streaming of networked visuals.
+
+  - title: Flow Protocol Compound Interest Calculator
+    link: "https://github.com/jordojordo/flow-protocol-compound-interest"
+    date: "2020-08-25"
+    description:
+      summary:
+        - A compound interest calculator for the Flow Protocol (superseded by Reflect Finance) cryptocurrency to support the project and shed light on the benefits of a self-distributing token without dilution.
+    endDate: "2020-10-16"

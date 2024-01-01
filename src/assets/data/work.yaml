@@ -1,0 +1,70 @@
+heading: Work Experience
+visible: true
+items:
+  - company: SUSE
+    position: UI Engineer
+    website: "https://www.suse.com/"
+    startDate: "2021-08-16"
+    endDate: ""
+    summary:
+      - Kubewarden UI:
+          - Pioneered the design and implementation of the Kubewarden UI as the sole engineer, significantly enhancing user experience and functionality.
+          - Played a pivotal role in the successful release of Kubewarden 1.0.0 and active contributions to version 1.3.2, demonstrating expertise in software lifecycle management and UI development.
+          - Authored and implemented comprehensive unit tests for the Kubewarden UI, drastically improving code reliability and performance.
+          - Authored extensive and user-friendly documentation for the Kubewarden UI, substantially aiding in user comprehension and engagement. Regularly contributed to blog posts, disseminating valuable insights and updates.
+          - Contributed to updates and maintenance of Helm charts for Kubewarden, enhancing deployment and scalability.
+      - Rancher Dashboard:
+          - Contributed significantly to end-to-end testing for the Kubewarden UI and the Rancher Dashboard, ensuring software quality and user satisfaction.
+          - Addressed and resolved intricate customer support issues, demonstrating exceptional problem-solving skills and dedication to customer service.
+          - Excelled as Release Captain on multiple occasions, underscoring leadership and project management skills.
+          - Played a key role in team expansion, actively participating in the hiring process and conducting interviews.
+          - Led Rancher Extensions masterclasses and webinars, presented at SUSECON, and participated in community meetings, boosting community knowledge and relations.
+          - Spearheaded the "Airgap Story for Rancher Extensions" project, ensuring seamless collaboration with backend teams and contributing to the rancher/rancher repository.
+          - Demonstrated high-level expertise in managing and configuring Helm charts for the Rancher Dashboard, showcasing deep knowledge in Kubernetes deployment and strategic management.
+          - Engineered sophisticated Shell scripts and GitHub workflows to automate the complex process of packaging Rancher Extensions into deployable Helm charts and container images for the Rancher Manager, enhancing operational efficiency and reliability.
+          - Innovatively designed and implemented versatile, reusable workflows for building extensions across diverse lifecycle management platforms, such as GitLab and GitHub. Additionally, specialized in crafting OCI-compliant container images using Podman, reflecting a strong commitment to cutting-edge DevOps practices and cross-platform compatibility.
+          - Maintained strong collaboration with the documentation team, ensuring accurate and clear external documentation.
+          - Engaged actively in customer support meetings focused on extensions, prioritizing solution-oriented customer interactions.
+          - Fostered collaborations with partners like Nginx, NeuVector, Clastix, and Kubecost on integrations for extensions, exemplifying effective teamwork and cross-functional coordination.
+
+  - company: Cadmium
+    position: Webmaster
+    website: "https://gocadmium.com"
+    startDate: "2019-10-21"
+    endDate: "2021-07-16"
+    summary:
+      - Led development of company website following the merger of 4 separate entities.
+      - Worked with stakeholders to conceptualize and refine product vision, technical requirements, and direction for the production of new company website.
+      - Sole architect and developer for the construction of client and server side web technologies.
+      - Built API server to integrate with existing MSSQL database utilizing Gitlab CI, Ubuntu, Nginx, Node.js, and Express.js as the foundation.
+      - Created CI/CD pipeline with Github Actions to deploy frontend into Azure Web Services with testing and production environments.
+      - Constructed frontend using Gridsome framework for Vue.js to employ static generated website with GraphQL for sustained scalability.
+      - Migrated existing Wordpress blog to the open-sourced CMS solution Ghost with Node.js server and MySql database.
+      - Regularly write Shell scripts to update 1000+ client-facing Event Websites with updates to existing code structures on ASP servers.
+      - Implemented anit-spam techniques to request forms resulting in 3.5k requests being rejected in Q1 of 2021.
+      - Collaborate daily with marketing team to discuss creative proposals and design best practices with the goal of improving user experience and driving more engagement to existing websites.
+  - company: Freelance
+    position: Web Developer
+    website: ""
+    startDate: "2018-06-04"
+    endDate: "2019-10-21"
+    summary:
+      - Developed, built, and updated Wordpress and React.js sites for clients such as Thread Coffee Roasters and Britestar Printing.
+      - Designed and created optimized landing pages with HTML, CSS, and JavaScript with Stripe integration to support e-commerce websites.
+      - Coordinated with in-house web designers for an improved flow of existing websites to strengthen search engine rankings.
+  - company: Techlab Photo
+    position: Photo Lab Technician
+    website: ""
+    startDate: "2017-10-16"
+    endDate: "2018-06-11"
+    summary:
+      - Conceived and streamlined workflow by creating a database server built with Ubutnu to collect and organize all company data.
+      - Reduced unnecessary labor by consolidating existing intranet and optimizing software needs.
+  - company: US Air Force
+    position: Aircraft Armament Systems Journeyman
+    website: ""
+    startDate: "2010-08-24"
+    endDate: "2014-11-02"
+    summary:
+      - Installed, maintained, and troubleshot the F-16 aircraft weapons/suspension and electrical systems.
+      - Analyzed malfunctions and performed functional checks of launch/suspension systems.

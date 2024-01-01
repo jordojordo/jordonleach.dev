@@ -1,0 +1,136 @@
+/* Light Theme */
+:root {
+  --white: #fffffe;
+  --black: #16161a;
+  --green-light: #c3f0ca;
+  --green-medium: #2cb67d;
+  --green-dark: #425244;
+  --pink-light: #faeee7;
+  --pink-dark: #ffc6c7;
+  --purple-light: #EBE6FA;
+  --purple-medium: #8965F6;
+  --purple-dark: #5E45A8;
+
+  --background-primary: var(--pink-light);
+  --background-secondary: var(--pink-dark);
+  --background-tertiary: var(--green-light);
+  --foreground-primary: #33272a;
+  --foreground-secondary: #594a4e;
+  --foreground-tertiary: #94a1b2;
+  --foreground-highlight: var(--green-dark);
+  --foreground-link: var(--purple-medium);
+  --foreground-button: var(--purple-dark);
+}
+
+/* Dark Theme */
+:root.dark {
+  --background-primary: #33272a;
+  --background-secondary: #594a4e;
+  --background-tertiary: #94a1b2;
+  --foreground-primary: var(--white);
+  --foreground-secondary: var(--pink-dark);
+  --foreground-tertiary: var(--green-medium);
+  --foreground-highlight: var(--green-light);
+  --foreground-button: var(--purple-light);
+}
+
+@font-face {
+  font-family: "FreeMono";
+  font-weight: 400;
+  font-style: normal;
+  font-display: auto;
+  src: local("FreeMono"), url("/fonts/FreeMono/FreeMono.woff") format("woff");
+}
+
+@font-face {
+  font-family: "FreeMonoBold";
+  font-weight: 500;
+  font-style: normal;
+  font-display: auto;
+  src: local("FreeMonoBold"), url("/fonts/FreeMono/FreeMonoBold.woff") format("woff");
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'FreeMono';
+  position: relative;
+}
+
+/* CONTAINER */
+.container {
+  width: 98%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width:640px) {
+  .container {
+    max-width: 640px
+  }
+}
+
+@media (min-width:768px) {
+  .container {
+    max-width: 768px
+  }
+}
+
+@media (min-width:1024px) {
+  .container {
+    max-width: 1024px
+  }
+}
+
+/* TEXT */
+[class*="text-"] {
+  font-family: 'FreeMono';
+}
+
+.text-small {
+  font-size: 1rem;
+}
+
+.text-medium {
+  font-size: 1.11;
+}
+
+.text-large {
+  font-size: 1.22rem;
+}
+
+.text-xl {
+  font-size: 1.33rem;
+}
+
+.text-bold {
+  font-family: 'FreeMonoBold';
+}
+
+.text-underline {
+  text-decoration: underline;
+}
+
+.text-primary {
+  color: var(--foreground-primary);
+}
+
+.text-secondary {
+  color: var(--foreground-secondary)
+}
+
+.text-tertiary {
+  color: var(--foreground-tertiary);
+}
+
+.text-highlight {
+  color: var(--foreground-highlight);
+}
+
+.text-link {
+  color: var(--foreground-link);
+}
+
+.text-button {
+  color: var(--foreground-button);
+}
