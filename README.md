@@ -1,6 +1,6 @@
 # Personal
 
-This is my personal website
+This is my personal website.
 
 ## Recommended IDE Setup
 
