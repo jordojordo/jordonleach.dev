@@ -67,7 +67,7 @@ jobs:
 
       - name: Run playwright tests
         run: |
-          yarn test:e2e
+          HOME=/root yarn test:e2e
 
       - uses: actions/upload-artifact@v4
         if: always()
