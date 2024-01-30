@@ -386,9 +386,9 @@
     undici-types "~5.26.4"
 
 "@types/node@^18.19.3":
-  version "18.19.4"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.19.4.tgz#89672e84f11a2c19543d694dac00ab8d7bc20ddb"
-  integrity sha512-xNzlUhzoHotIsnFoXmJB+yWmBvFZgKCI9TtPIEdYIMM1KWfwuY8zh7wvc1u1OAXlC7dlf6mZVx/s+Y5KfFz19A==
+  version "18.19.11"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.19.11.tgz#355cf2a28a8c2edf154b275a5715401b18fe0b63"
+  integrity sha512-hzdHPKpDdp5bEcRq1XTlZ2ntVjLcHCTV73dEcGg02eSY/+9AZ+jlfz6i00+zOrunMWenjHuI49J8J7Y9uz50JQ==
   dependencies:
     undici-types "~5.26.4"
 
@@ -2391,6 +2391,7 @@ std-env@^3.5.0:
   integrity sha512-JPbdCEQLj1w5GilpiHAx3qJvFndqybBysA3qUOnznweH4QbNYUsW/ea8QzSrnh0vNsezMMw5bcVool8lM0gwzg==
 
 "string-width-cjs@npm:string-width@^4.2.0", string-width@^4.1.0:
+  name string-width-cjs
   version "4.2.3"
   resolved "https://registry.yarnpkg.com/string-width/-/string-width-4.2.3.tgz#269c7117d27b05ad2e536830a8ec895ef9c6d010"
   integrity sha512-wKyQRQpjJ0sIp62ErSZdGsjMJWsap5oRNihHhu6G7JVO/9jIB6UyevL+tXuOqrng8j/cxKTWyWUwvSTriiZz/g==
