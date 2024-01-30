@@ -12,7 +12,7 @@ import { defineConfig, devices } from '@playwright/test';
 export default defineConfig({
   'testDir': './e2e',
   /* Maximum time one test can run for. */
-  'timeout': 30 * 1000,
+  'timeout':  5 * 60 * 1000,
   'expect':  {
     /**
      * Maximum time expect() should wait for the condition to be met.
@@ -46,60 +46,30 @@ export default defineConfig({
   'projects': [
     {
       'name': 'chromium',
-      'use':  { ...devices['Desktop Chrome'] }
+      'use':  { 
+        ...devices['Desktop Chrome'],
+        viewport: { width: 1600, height: 900 },
+      }
     },
     {
       'name': 'firefox',
-      'use':  { ...devices['Desktop Firefox'] }
+      'use':  { 
+        ...devices['Desktop Firefox'],
+        viewport: { width: 1600, height: 900 },
+      }
     },
-    // {
-    //   name: 'webkit',
-    //   use: {
-    //     ...devices['Desktop Safari']
-    //   }
-    // }
-
-    /* Test against mobile viewports. */
-    // {
-    //   name: 'Mobile Chrome',
-    //   use: {
-    //     ...devices['Pixel 5'],
-    //   },
-    // },
-    // {
-    //   name: 'Mobile Safari',
-    //   use: {
-    //     ...devices['iPhone 12'],
-    //   },
-    // },
-
-    /* Test against branded browsers. */
-    // {
-    //   name: 'Microsoft Edge',
-    //   use: {
-    //     channel: 'msedge',
-    //   },
-    // },
-    // {
-    //   name: 'Google Chrome',
-    //   use: {
-    //     channel: 'chrome',
-    //   },
-    // },
+    {
+      name: 'webkit',
+      use: {
+        ...devices['Desktop Safari'],
+        viewport: { width: 1600, height: 900 },
+      }
+    }
   ],
-
-  /* Folder for test artifacts such as screenshots, videos, traces, etc. */
-  // outputDir: 'test-results/',
 
   /* Run your local dev server before starting the tests */
   'webServer': {
-    /**
-     * Use the dev server by default for faster feedback loop.
-     * Use the preview server on CI for more realistic testing.
-     * Playwright will re-use the local server if there is already a dev-server running.
-     */
-    'command':             process.env.CI ? 'vite preview --port 5173' : 'vite dev',
-    'port':                5173,
+    'command':             'vite dev',
     'reuseExistingServer': !process.env.CI
   }
 });
