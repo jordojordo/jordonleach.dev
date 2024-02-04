@@ -1,10 +1,12 @@
-name: Test Application Build
+name: Build Tests
 
 on:
   workflow_dispatch:
   pull_request:
     branches:
       - master
+  schedule:
+    - cron: "0 2 * * *"
 
 jobs:
   unit:
