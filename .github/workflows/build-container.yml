@@ -43,7 +43,7 @@ jobs:
           password: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Build and publish image
-        uses: docker/build-push-action@v5
+        uses: docker/build-push-action@v6
         env:
           ACTIONS_STEP_DEBUG: false
         with:
