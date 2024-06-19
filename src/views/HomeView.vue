@@ -14,8 +14,7 @@
     </h1>
 
     <p class="text-primary">
-      I'm a fullstack web developer with a knack for not writing much about
-      myself.
+      I'm a Senior Software Engineer with extensive expertise in UI development, lifecycle management, Kubernetes, and GitHub.
     </p>
   </main>
 </template>
