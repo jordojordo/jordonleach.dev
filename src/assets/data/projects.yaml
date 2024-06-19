@@ -1,7 +1,7 @@
 heading: Projects
 visible: true
 items:
- - title: ThothScript
+  - title: ThothScript
     link: "https://github.com/jordojordo/thothscript"
     date: "2024-05-20"
     description:
