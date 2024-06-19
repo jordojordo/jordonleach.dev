@@ -20,7 +20,7 @@ test.describe('ProjectsList component tests', () => {
   test('should render all project items correctly', async({ page }) => {
     const projectItems = page.getByTestId('project-id');
 
-    await expect(projectItems).toHaveCount(6);
+    await expect(projectItems).toHaveCount(8);
   });
 
   test('should display correct project titles', async({ page }) => {
