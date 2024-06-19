@@ -33,7 +33,7 @@ function getDate(item: WorkItem) {
         class="text-link text-bold"
         data-testid="work-pdf-link"
       >
-        Download PDF
+        Download Resume
       </a>
     </div>
 

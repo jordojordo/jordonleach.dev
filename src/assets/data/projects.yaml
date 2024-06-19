@@ -1,6 +1,30 @@
 heading: Projects
 visible: true
 items:
+  - title: ThothScript
+    link: "https://github.com/jordojordo/thothscript"
+    date: "2024-05-20"
+    description:
+      summary:
+        - ThothScript is a chatbot application that allows users to interact with the ThothScript-operator to perform Kubernetes management through conversational interfaces. It leverages GPTScript to automate tasks using natural language instructions.
+      features:
+        - Chatbot interface to interact with ThothScript-operator.
+        - Supports natural language scripting with GPTScript.
+        - Manages Kubernetes resources using `kubectl` and `helm`.
+        - Enables flexible task automation and orchestration.
+
+  - title: ThothScript-Operator
+    link: "https://github.com/jordojordo/thothscript-operator"
+    date: "2024-05-20"
+    description:
+      summary:
+        - The ThothScript Operator is a Node.js application that facilitates script operations on a Kubernetes cluster using GPTScript. It provides an API interface to manage Kubernetes resources through natural language scripting.
+      features:
+        - GPTScript integration for natural language scripting.
+        - Performs CRUD operations on Kubernetes resources using `kubectl` and `helm`.
+        - API interface for script execution and Kubernetes management.
+        - Modular design allowing for customization and extension.
+
   - title: Lawndon
     link: "https://github.com/jordojordo/lawndon-lite"
     date: "2023-11-16"
@@ -30,7 +54,7 @@ items:
     date: "2022-07-22"
     description:
       summary:
-        - A basic HTML website that revives the spirit of GeoCities. It showcases music videos with a unique twist, featuring recycled VHS visuals. The site uses the Daphine API for streaming music and videos, and it's hosted on a personal server utilizing Kubernetes and Helm for optimal performance and scalability. It's a testament to the fusion of old and new, showcasing my passion for both retro aesthetics and contemporary web technologies.
+        - A website built with Vite that revives the spirit of GeoCities. It showcases music videos with a unique twist, featuring recycled VHS visuals. The site uses the Daphine API for streaming music and videos, and it's hosted on a personal server utilizing Kubernetes and Helm for optimal performance and scalability. It's a testament to the fusion of old and new, showcasing my passion for both retro aesthetics and contemporary web technologies.
 
   - title: Hermes
     link: "https://hermes.yokanga.xyz"
