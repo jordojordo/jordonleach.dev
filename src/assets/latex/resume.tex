@@ -5,6 +5,18 @@
 \usepackage{hyperref}
 \usepackage{titlesec}
 \usepackage{fontspec}
+\usepackage{xcolor}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,
+    urlcolor=cyan,
+    citecolor=blue,
+    pdfborder={0 0 0},
+    linkbordercolor=blue,
+    urlbordercolor=cyan
+}
 
 \setmainfont{Liberation Sans}
 \titleformat{\section}{\normalfont\Large\bfseries}{\thesection}{1em}{}
@@ -19,7 +31,7 @@
     Glen Rock, Pennsylvania, United States \\
     (717) 781-7700 \\
     jordonleach@gmail.com \\
-    \href{https://jordonleach.dev}{Personal Website} | \href{https://github.com/jordojordo}{GitHub} \\
+    \href{https://jordonleach.dev}{\underline{Personal Website}} | \href{https://github.com/jordojordo}{\underline{GitHub}} \\
 \end{center}
 
 \vspace{5mm}
@@ -33,11 +45,12 @@ Innovative Senior Software Engineer with extensive expertise in UI development, 
 \textit{Remote} \hfill \textbf{Aug 2021 — Present}
 \begin{itemize}[leftmargin=1.5em]
     \item \textbf{Promotion}: Promoted to Senior Software Engineer for outstanding contributions and leadership.
-    \item \textbf{Kubewarden}: Continued contributions to Kubewarden, enhancing UI and managing releases up to version 1.6.1.
-    \item \textbf{Rancher Dashboard}: Contributed to end-to-end testing and enhancement of the Rancher Dashboard, ensuring high software quality and user satisfaction.
-    \item \textbf{UI and Helm Innovations}: Spearheaded the design and implementation of the Kubewarden UI and Helm charts, significantly improving user experience and deployment scalability.
-    \item \textbf{Testing and Documentation}: Authored comprehensive unit and end-to-end tests, and extensive documentation to enhance code reliability and user engagement.
-    \item \textbf{Community Engagement}: Played a pivotal role in team expansion and community engagement, including presenting at SUSECON and conducting technical webinars.
+    \item \textbf{Kubewarden}: Main creator and developer of the Kubewarden UI, contributing over 132,000 lines of code. Enhanced UI and managed releases, improving deployment scalability.
+    \item \textbf{Rancher Dashboard}: Contributed to end-to-end testing and UI enhancements, improving user satisfaction and system reliability. UI installed by default in Rancher Prime, used by thousands of users globally.
+    \item \textbf{Helm Innovations}: Designed and implemented Helm charts for Rancher Extensions, simplifying user interactions and deployment processes.
+    \item \textbf{Testing and Documentation}: Authored comprehensive unit and end-to-end tests, achieving 44.81\% line coverage, significantly increasing code reliability and user engagement.
+    \item \textbf{Community Engagement}: Expanded team and community involvement, presented at SUSECON to over 2,000 attendees, and conducted technical webinars with over 3,000 views accumulated.
+    \item \textbf{Rancher Extensions}: Developed the @shell/rancher package used by over 200 extensions for Rancher Manager, including air-gapped builds and CI/CD integrations.
 \end{itemize}
 
 \subsection*{Webmaster, Cadmium}
@@ -55,6 +68,8 @@ Innovative Senior Software Engineer with extensive expertise in UI development, 
     \item Optimized website functionality and search engine rankings, and integrated Stripe for streamlined transactions.
 \end{itemize}
 
+\section*{Additional Experience}
+
 \subsection*{Photo Lab Technician, Techlab Photo}
 \textit{Baltimore, Maryland} \hfill \textbf{Oct 2017 — Jun 2018}
 \begin{itemize}[leftmargin=1.5em]
@@ -71,61 +86,57 @@ Innovative Senior Software Engineer with extensive expertise in UI development, 
 
 \section*{Skills}
 \begin{itemize}[leftmargin=1.5em]
-    \item TypeScript/JavaScript
-    \item Vue.js
-    \item Node.js
-    \item Git
-    \item CI/CD Pipelines
-    \item Kubernetes
-    \item Linux
-    \item Bash
-    \item Helm
-    \item MSSQL
+    \item \textbf{Programming Languages}: TypeScript, JavaScript, Bash
+    \item \textbf{Frameworks}: Vue.js, Node.js
+    \item \textbf{DevOps Tools}: Kubernetes, Helm, CI/CD Pipelines, Git
+    \item \textbf{Databases}: MSSQL
+    \item \textbf{Operating Systems}: Linux
+    \item \textbf{Other}: Leadership, Project Management, Technical Documentation
 \end{itemize}
 
 \section*{Personal Projects}
 
-\subsection*{\href{https://github.com/jordojordo/thothscript}{ThothScript}}
+\subsection*{\href{https://github.com/jordojordo/thothscript}{\underline{ThothScript}}}
 \begin{itemize}[leftmargin=1.5em]
     \item A chatbot application allowing interaction with Kubernetes clusters using natural language scripting.
     \item Features include Kubernetes resource management via \texttt{kubectl} and Helm, flexible task automation, and an intuitive chat interface.
     \item Deployed using Helm charts for easy installation on Kubernetes clusters.
 \end{itemize}
 
-\subsection*{\href{https://github.com/jordojordo/thothscript-operator}{ThothScript-Operator}}
+\subsection*{\href{https://github.com/jordojordo/thothscript-operator}{\underline{ThothScript-Operator}}}
 \begin{itemize}[leftmargin=1.5em]
     \item A Node.js application leveraging GPTScript for Kubernetes management through an API interface.
     \item Supports CRUD operations on Kubernetes resources with modular design for extensibility.
     \item Includes development tools for a smooth workflow and robust API integration.
 \end{itemize}
 
-\subsection*{\href{https://github.com/jordojordo/lawndon-lite}{Lawndon}}
+\subsection*{\href{https://github.com/jordojordo/lawndon-lite}{\underline{Lawndon}}}
 \begin{itemize}[leftmargin=1.5em]
     \item Designed and developed a remote-controlled electric lawn mower with advanced terrain capabilities and eco-friendly design.
     \item Implemented GitHub Actions for automated build and release processes.
 \end{itemize}
 
-\subsection*{\href{https://github.com/jordojordo/daphine}{Daphine Streaming API}}
+\subsection*{\href{https://github.com/jordojordo/daphine}{\underline{Daphine Streaming API}}}
 \begin{itemize}[leftmargin=1.5em]
     \item Created a versatile API for streaming media, optimized for various deployment environments including Kubernetes and Docker.
     \item Hosted on personal homelab server using Kubernetes and Rancher.
 \end{itemize}
 
-\subsection*{\href{https://github.com/jordojordo/hermes}{Hermes}}
+\subsection*{\href{https://github.com/jordojordo/hermes}{\underline{Hermes}}}
 \begin{itemize}[leftmargin=1.5em]
     \item Developed an immersive 3D web application using Vue.js and Three.js, integrating custom 3D models and interactive UI.
-    \item \href{https://hermes.yokanga.xyz}{Hosted} on personal homelab server using Kubernetes and Rancher.
+    \item \href{https://hermes.yokanga.xyz}{\underline{Hosted}} on personal homelab server using Kubernetes and Rancher.
 \end{itemize}
 
-\subsection*{\href{https://github.com/jordojordo/bashmu}{Bashmu}}
+\subsection*{\href{https://github.com/jordojordo/bashmu}{\underline{Bashmu}}}
 \begin{itemize}[leftmargin=1.5em]
     \item Developed a user-friendly UI for livecoding and streaming, optimized for performance and user interaction.
 \end{itemize}
 
-\subsection*{\href{https://github.com/jordojordo/yokanga.xyz}{Yokanga}}
+\subsection*{\href{https://github.com/jordojordo/yokanga.xyz}{\underline{Yokanga}}}
 \begin{itemize}[leftmargin=1.5em]
     \item Built a retro-themed music video streaming website, utilizing cloud-native technologies for hosting and streaming.
-    \item \href{https://yokanga.xyz}{Hosted} on personal homelab server using Kubernetes and Rancher.
+    \item \href{https://yokanga.xyz}{\underline{Hosted}} on personal homelab server using Kubernetes and Rancher.
 \end{itemize}
 
 \end{document}
