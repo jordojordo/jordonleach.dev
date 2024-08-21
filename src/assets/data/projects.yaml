@@ -37,6 +37,18 @@ items:
         - Utilizes a high-torque, low-power design philosophy to balance efficiency with the capability to climb hills.
         - Designed reproducible tracks and gears, making it possible for others with access to a 3D printer to replicate the build.
 
+  - title: Horus Holdings
+    link: "https://github.com/jordojordo/horus-holdings"
+    date: "2024-08-21"
+    description:
+      summary:
+        - Horus Holdings is a cash flow management tool designed to help users track their incomes and expenses, providing a clear visualization of their cash flow over time. Named after the Egyptian god Horus, who symbolizes protection, stability, and prosperity, this application aims to bring financial clarity and control to its users. By offering robust user authentication, Horus Holdings ensures that each user's financial data remains secure and private.
+      features:
+        - Provides a clear visualization of cash flow over time, helping users track their incomes and expenses.
+        - Includes robust user authentication to ensure the security and privacy of financial data.
+        - Offers a quickstart option with Docker for easy setup and deployment.
+        - Supports MySQL for data storage, with a Docker option for running the database locally.
+
   - title: Daphine
     link: "https://github.com/jordojordo/daphine"
     date: "2023-9-18"
