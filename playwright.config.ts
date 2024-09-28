@@ -46,23 +46,32 @@ export default defineConfig({
   'projects': [
     {
       'name': 'chromium',
-      'use':  { 
+      'use':  {
         ...devices['Desktop Chrome'],
-        viewport: { width: 1600, height: 900 },
+        viewport: {
+          width:  1600,
+          height: 900
+        },
       }
     },
     {
       'name': 'firefox',
-      'use':  { 
+      'use':  {
         ...devices['Desktop Firefox'],
-        viewport: { width: 1600, height: 900 },
+        viewport: {
+          width:  1600,
+          height: 900
+        },
       }
     },
     {
       name: 'webkit',
-      use: {
+      use:  {
         ...devices['Desktop Safari'],
-        viewport: { width: 1600, height: 900 },
+        viewport: {
+          width:  1600,
+          height: 900
+        },
       }
     }
   ],
