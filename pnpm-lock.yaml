@@ -13,7 +13,7 @@ importers:
         version: 4.1.0
       pinia:
         specifier: ^2.2.2
-        version: 2.2.2(typescript@5.4.5)(vue@3.5.10(typescript@5.4.5))
+        version: 2.2.3(typescript@5.4.5)(vue@3.5.10(typescript@5.4.5))
       vue:
         specifier: ^3.5.10
         version: 3.5.10(typescript@5.4.5)
@@ -1402,8 +1402,8 @@ packages:
     engines: {node: '>=0.10'}
     hasBin: true
 
-  pinia@2.2.2:
-    resolution: {integrity: sha512-ja2XqFWZC36mupU4z1ZzxeTApV7DOw44cV4dhQ9sGwun+N89v/XP7+j7q6TanS1u1tdbK4r+1BUx7heMaIdagA==}
+  pinia@2.2.3:
+    resolution: {integrity: sha512-t2X9y1FT0h5zHmi9PsVr0LMNC0DXdPiYxX6zM5IyZHoWFjLq/LGpM1OVpGhXTPHjUh0XaFlsQd3GvPvGGNLQnw==}
     peerDependencies:
       '@vue/composition-api': ^1.4.0
       typescript: '>=4.4.4'
@@ -3176,7 +3176,7 @@ snapshots:
 
   pidtree@0.6.0: {}
 
-  pinia@2.2.2(typescript@5.4.5)(vue@3.5.10(typescript@5.4.5)):
+  pinia@2.2.3(typescript@5.4.5)(vue@3.5.10(typescript@5.4.5)):
     dependencies:
       '@vue/devtools-api': 6.6.4
       vue: 3.5.10(typescript@5.4.5)
