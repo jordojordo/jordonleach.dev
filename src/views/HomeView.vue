@@ -2,7 +2,7 @@
   <main class="container home">
     <img
       alt="My beautiful face"
-      src="@/assets/images/me.png"
+      src="@/assets/images/me.jpg"
       class="image"
     />
 
