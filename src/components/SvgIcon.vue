@@ -2,7 +2,7 @@
 import { defineAsyncComponent, computed } from 'vue';
 
 const props = defineProps<{
-  svgName: String
+  svgName: string
 }>();
 
 const icon = computed(() => defineAsyncComponent(() => import(`@/assets/images/${ props.svgName }.svg`)));

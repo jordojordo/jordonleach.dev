@@ -22,17 +22,17 @@ export default { components: { RouterLink } };
     <div>
       <RouterLink
         class="text-highlight text-bold link text-large"
-        to="/work"
-        data-testid="nav-work"
-      >
-        Work
-      </RouterLink>
-      <RouterLink
-        class="text-highlight text-bold link text-large"
         to="/projects"
         data-testid="nav-projects"
       >
         Projects
+      </RouterLink>
+      <RouterLink
+        class="text-highlight text-bold link text-large"
+        to="/work"
+        data-testid="nav-work"
+      >
+        Work
       </RouterLink>
     </div>
   </header>
