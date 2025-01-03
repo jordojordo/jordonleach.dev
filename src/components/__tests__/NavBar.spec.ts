@@ -17,15 +17,15 @@ const routes: RouteRecordRaw[] = [
     name:      'Home'
   },
   {
+    path:      '/projects',
+    component: DummyComponent,
+    name:      'Projects'
+  },
+  {
     path:      '/work',
     component: DummyComponent,
     name:      'Work'
   },
-  {
-    path:      '/projects',
-    component: DummyComponent,
-    name:      'Projects'
-  }
 ];
 
 const router = createRouter({
@@ -53,8 +53,8 @@ describe('NavBar', () => {
 
   it('renders all navigation links', () => {
     expect(wrapper.text()).toContain("Jordo's Territory");
-    expect(wrapper.text()).toContain('Work');
     expect(wrapper.text()).toContain('Projects');
+    expect(wrapper.text()).toContain('Work');
   });
 
   it('has correct navigation URLs', () => {
