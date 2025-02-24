@@ -1,8 +1,19 @@
+import globals from 'globals';
 import pluginVue from 'eslint-plugin-vue';
 import vueTsEslintConfig from '@vue/eslint-config-typescript';
 import skipFormatting from '@vue/eslint-config-prettier/skip-formatting';
 
 export default [
+  {
+    name:            'app/env',
+    languageOptions: {
+      globals:       {
+        ...globals.node,
+        ...globals.browser
+      },
+    }
+  },
+
   {
     name:  'app/files-to-lint',
     files: ['**/*.{ts,mts,tsx,vue}'],
