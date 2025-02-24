@@ -28,7 +28,7 @@ function getDate(item: WorkItem) {
         {{ work?.heading }}
       </h2>
       <a
-        href="Jordon_Leach_Senior_Frontend_Engineer.pdf"
+        href="Jordon_Leach_Senior_Software_Engineer.pdf"
         download
         class="text-link text-bold"
         data-testid="work-pdf-link"

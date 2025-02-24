@@ -1,4 +1,4 @@
-name: Build Tests
+name: Unit, E2E, Build tests
 
 on:
   workflow_dispatch:
@@ -6,7 +6,7 @@ on:
     branches:
       - master
   schedule:
-    - cron: "0 2 * * *"
+    - cron: "0 2 * * 4"
 
 jobs:
   unit:
@@ -21,7 +21,7 @@ jobs:
       - uses: pnpm/action-setup@v4
         name: Install pnpm
         with:
-          version: 9.15.2
+          version: latest
           run_install: false
 
       - name: Setup Node.js
@@ -61,7 +61,7 @@ jobs:
       - uses: pnpm/action-setup@v4
         name: Install pnpm
         with:
-          version: 9.15.2
+          version: latest
           run_install: false
 
       - name: Setup Node.js
@@ -98,7 +98,7 @@ jobs:
       - uses: pnpm/action-setup@v4
         name: Install pnpm
         with:
-          version: 9.15.2
+          version: latest
           run_install: false
 
       - name: Setup Node.js

@@ -21,7 +21,7 @@ test.describe('WorkView Component', () => {
     ]);
 
     // Check if the download has started and the filename is correct
-    expect(download.suggestedFilename()).toBe('Jordon_Leach_Senior_Frontend_Engineer.pdf');
+    expect(download.suggestedFilename()).toBe('Jordon_Leach_Senior_Software_Engineer.pdf');
 
     const path = await download.path();
 
